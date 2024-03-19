@@ -4,9 +4,9 @@ on:
 jobs:
   build:
     name: MacRDP
-    runs-on: macos-latest
+    runs-on: flyci-macos-large-latest-m2
     
-    steps:                 
+    steps:  
     - name: Enabling Remote Access
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
