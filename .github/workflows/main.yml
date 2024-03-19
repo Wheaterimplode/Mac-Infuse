@@ -4,7 +4,7 @@ on:
 jobs:
   build:
     name: MacRDP
-    runs-on: flyci-macos-large-latest-m2
+    runs-on: flyci-macos-large-latest-m1
     
     steps:  
     - name: Enabling Remote Access
